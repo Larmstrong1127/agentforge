@@ -2,6 +2,12 @@
 
 A multi-LLM agent builder platform that lets you create, configure, and chat with AI agents powered by OpenAI and Anthropic. Built as a portfolio project targeting full-stack AI engineering roles.
 
+![Dashboard](screenshots/dashboard.PNG)
+
+![Chat](screenshots/chat.png)
+
+![Compare](screenshots/compare.PNG)
+
 ## Features
 
 - **Multi-provider support** — build agents on OpenAI (GPT-4o, GPT-4o Mini) or Anthropic (Claude Haiku, Claude Sonnet)
@@ -108,12 +114,6 @@ Both OpenAI and Anthropic providers run a `while(continueLoop)` loop — the age
 
 ### Prisma 7 + LibSQL
 Uses Prisma 7's new TypeScript source generator with the `@prisma/adapter-libsql` driver adapter, enabling future compatibility with edge runtimes and Turso.
-
-## Screenshots
-
-| Dashboard | Chat + Execution Trace | Model Comparison |
-|---|---|---|
-| ![Dashboard](screenshots/dashboard.PNG) | ![Chat](screenshots/chat.png) | ![Compare](screenshots/compare.PNG) |
 
 ## License
 
