@@ -109,6 +109,12 @@ Both OpenAI and Anthropic providers run a `while(continueLoop)` loop — the age
 ### Prisma 7 + LibSQL
 Uses Prisma 7's new TypeScript source generator with the `@prisma/adapter-libsql` driver adapter, enabling future compatibility with edge runtimes and Turso.
 
+## Screenshots
+
+| Dashboard | Chat + Execution Trace | Model Comparison |
+|---|---|---|
+| ![Dashboard](screenshots/dashboard.PNG) | ![Chat](screenshots/chat.png) | ![Compare](screenshots/compare.PNG) |
+
 ## License
 
 MIT — built by [Landon Armstrong](https://github.com/Larmstrong1127)
